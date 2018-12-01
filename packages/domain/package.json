@@ -1,0 +1,21 @@
+{
+  "name": "@experimental/domain",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Jan Molak <jan.molak@smartcodeltd.co.uk>",
+  "homepage": "https://github.com/jan-molak/ng-monorepo-experiment/tree/master/packages/rest-api#readme",
+  "license": "Apache-2.0",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "private": true,
+  "publishConfig": {
+    "access": "private"
+  },
+  "scripts": {
+    "clean": "rimraf lib",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/jan-molak/ng-monorepo-experiment/issues"
+  }
+}
