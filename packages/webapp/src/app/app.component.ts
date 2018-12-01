@@ -7,5 +7,5 @@ import { Person } from '@experimental/domain';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = new Person('Web', 'App');
+  title = new Person('Web', 'App').toString().replace(/\s+/, '').toLowerCase(); // todo: temporary
 }
