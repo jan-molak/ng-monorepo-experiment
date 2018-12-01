@@ -1,0 +1,23 @@
+{
+  "name": "ng-monorepo-experiment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lerna": "lerna",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jan-molak/ng-monorepo-experiment.git"
+  },
+  "author": "",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/jan-molak/ng-monorepo-experiment/issues"
+  },
+  "homepage": "https://github.com/jan-molak/ng-monorepo-experiment#readme",
+  "devDependencies": {
+    "lerna": "^3.5.1"
+  }
+}
