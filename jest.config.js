@@ -26,8 +26,15 @@ const config = merge.recursive(angularPreset, {
         .map(p => `<rootDir>${ path.relative(__dirname, p) }`),
 
     moduleNameMapper: {
-        "^@experimental(.*)$": "<rootDir>/packages/$1/src",
-    }
+        '^@experimental(.*)$': '<rootDir>/packages/$1/src',
+    },
+
+    collectCoverage: true,
+    collectCoverageFrom: [
+        '**/*.ts',
+        '!<rootDir>/config/**',
+        '!**/vendor/**'
+    ]
 });
 
 module.exports = config;
