@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "lerna": "lerna",
+    "ng": "ng",
     "clean": "lerna run clean",
     "compile": "tsc -b packages",
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -21,9 +22,13 @@
   },
   "homepage": "https://github.com/jan-molak/ng-monorepo-experiment#readme",
   "devDependencies": {
-    "lerna": "^3.5.1",
+    "@angular/cli": "7.1.0",
+    "@types/node": "8.10.38",
+    "lerna": "3.5.1",
     "link-parent-bin": "0.2.3",
     "rimraf": "2.6.2",
-    "typescript": "3.2.1"
+    "typescript": "3.1.6",
+    "ts-node": "7.0.1",
+    "tslint": "5.11.0"
   }
 }
