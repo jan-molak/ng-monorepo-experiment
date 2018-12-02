@@ -13,7 +13,7 @@
     "test:ci": "jest --runInBand --ci",
     "test:cache:clear": "jest --clearCache",
     "test:acceptance": "lerna run test --scope @test/acceptance",
-    "postinstall": "lerna bootstrap --hoist --ci && link-parent-bin -c packages"
+    "postinstall": "lerna bootstrap && link-parent-bin -c packages"
   },
   "repository": {
     "type": "git",
