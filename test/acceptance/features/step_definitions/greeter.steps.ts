@@ -1,4 +1,6 @@
-export = function() {
+import { StepDefinitions } from 'cucumber';
+
+export = function(this: StepDefinitions) {
     this.Given(/^my name is (.*)$/, function (name: string) {
 
     });

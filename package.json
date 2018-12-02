@@ -12,7 +12,7 @@
     "test:watch": "jest --watch",
     "test:ci": "jest --runInBand --ci",
     "test:cache:clear": "jest --clearCache",
-    "cucumber": "cucumber-js --strict --compiler ts:ts-node/register --require './features/step_definitions/greeter.steps.ts'",
+    "test:acceptance": "lerna run test --scope @test/acceptance",
     "postinstall": "lerna bootstrap --hoist && link-parent-bin -c packages"
   },
   "repository": {
@@ -29,7 +29,6 @@
     "@angular/cli": "7.1.0",
     "@types/jest": "23.3.10",
     "@types/node": "^6.0.46",
-    "cucumber": "1.3.3",
     "glob": "7.1.3",
     "jest": "23.6.0",
     "jest-preset-angular": "6.0.1",

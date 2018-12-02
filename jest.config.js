@@ -12,7 +12,7 @@ const config = merge.recursive(angularPreset, {
 
     globals: {
         'ts-jest': {
-            tsConfigFile: path.join(__dirname, 'packages', 'tsconfig.spec.json'),
+            tsConfigFile: './tsconfig.spec.json',
         },
         '__TRANSFORM_HTML__': true
     },
