@@ -36,3 +36,13 @@ jobs:
     # run tests!
     - run: npm test
     - run: npm run cucumber
+
+    # https://circleci.com/docs/2.0/artifacts/
+    - run:
+        name: Creating Dummy Artifacts
+        command: |
+          echo "<!DOCTYPE html><html><body><h1>hello</h1></body></html>" > /tmp/artifact-1.html;
+
+    - store_artifacts:
+        path: /tmp/artifact-1.html
+        destination: html-report-file
