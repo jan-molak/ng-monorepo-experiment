@@ -1,7 +1,7 @@
 {
   "files": [],
   "references": [
-    { "path": "domain" },
+    { "path": "core" },
     { "path": "server" },
     { "path": "webapp" }
   ]
