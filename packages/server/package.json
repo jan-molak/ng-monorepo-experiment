@@ -19,6 +19,6 @@
     "url": "https://github.com/jan-molak/ng-monorepo-experiment/issues"
   },
   "dependencies": {
-    "@experimental/domain": "*"
+    "@experimental/core": "*"
   }
 }

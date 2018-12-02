@@ -19,7 +19,7 @@
     "url": "https://github.com/jan-molak/ng-monorepo-experiment/issues"
   },
   "dependencies": {
-    "@experimental/domain": "*"
+    "@experimental/core": "*"
   },
   "devDependencies": {
     "@types/cucumber": "4.0.4",
